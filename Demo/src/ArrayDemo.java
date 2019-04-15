@@ -20,11 +20,34 @@ public static  void main(String [] args){
 
         ArrayTool.printArray(arr);
        int a= ArrayTool.getMax(arr);
+//需求：遍历数组
+    //ArrayTool at = new ArrayTool();
+    //at.printArray(arr);
+
+    ArrayTool.printArray(arr);
+
+    //需求：我要获取数组中的最大值
 
 
+        System.out.println("输出最大数"+a);
 
-        System.out.println(a);
+        int[] b={221,442,113,44,55};
 
+        int bx;
+        bx=ArrayTool.getMx(b);
+        System.out.println("最小单据"+bx);
+
+//        dierye
+    GuessNumberDemo gu=new GuessNumberDemo();
+    gu.GuessNumberDemo();
+
+    //随机数
+    /**
+     * @ 返回数字
+     */
+
+    MathDemo mat=new MathDemo();
+    mat.MathDemo();
 
 
 }
