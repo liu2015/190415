@@ -12,7 +12,7 @@
 */
 
 
-public class ArrayDemo {
+public class ArrayDemo extends Fu {
 public static  void main(String [] args){
 
 
@@ -48,6 +48,42 @@ public static  void main(String [] args){
 
     MathDemo mat=new MathDemo();
     mat.MathDemo();
+
+//    ExtendsDemo dds=new ExtendsDemo();
+
+    ArrayDemo Arr=new ArrayDemo();
+    Arr.show2();
+
+    Son so=new Son();
+    so.show();
+
+    Student s=new Student();
+    s.setName("王祖贤");
+    s.setAge(27);
+    System.out.println(s.getName()+"  ---"+s.getAge());
+    s.eat();
+    s.sleep();
+    System.out.println("-------");
+
+
+
+    Student s2=new Student();
+    s2.setName("强哥");
+    s2.setAge(25);
+    System.out.println(s2.getName()+"  ---"+s2.getAge());
+    s2.eat();
+    s2.sleep();
+    System.out.println("-------");
+
+    Teacher t=new Teacher();
+    t.setName("xingming");
+    t.setAge(33);
+    System.out.println(t.getName()+"  ---"+t.getAge());
+    t.eat();
+    t.sleep();
+
+
+
 
 
 }
